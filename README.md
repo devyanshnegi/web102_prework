@@ -25,8 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/lz5b0NB' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<!-- ![hippo]() -->
+<img src='https://i.imgur.com/nzSukWc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif
 
@@ -35,11 +34,11 @@ GIF created with ScreenToGif
 
 Describe any challenges encountered while building the app.
 
-Arrow functions and this keyword scope vs function keywords functions and this keyword scope ---TODO
+Arrow functions inherit the **this** keyword from the surrounding scope however functions() define their own **this**.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Devyansh Negi]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
