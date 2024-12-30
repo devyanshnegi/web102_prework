@@ -176,3 +176,11 @@ firstGameContainer.appendChild(para2);
 const para3 = document.createElement("p");
 para3.innerHTML = secondGame.name;
 secondGameContainer.appendChild(para3);
+
+
+//customization
+document.getElementById("search-bar").addEventListener("input", (event) => {
+    const searchResults = GAMES_JSON.filter( (game) => game.name.toLowerCase().includes(event.target.value.toLowerCase()))
+    deleteChildElements(gamesContainer);
+    addGamesToPage(searchResults);
+});

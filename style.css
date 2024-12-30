@@ -79,3 +79,41 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#unfunded-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#funded-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#all-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#search-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  #search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  #item-list li {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  
