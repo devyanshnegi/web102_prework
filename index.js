@@ -182,5 +182,7 @@ secondGameContainer.appendChild(para3);
 document.getElementById("search-bar").addEventListener("input", (event) => {
     const searchResults = GAMES_JSON.filter( (game) => game.name.toLowerCase().includes(event.target.value.toLowerCase()))
     deleteChildElements(gamesContainer);
-    addGamesToPage(searchResults);
+    if(event.target.value != ""){
+        addGamesToPage(searchResults); 
+    } 
 });
